@@ -8,6 +8,9 @@ def is_palindrome(num):
         return True
     return False
 
+
+
+
 num1 = 0
 num2 = 0
 
