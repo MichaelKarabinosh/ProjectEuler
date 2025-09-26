@@ -9,14 +9,10 @@ with open("pe11", "r") as file:
 index = 0
 product = 0
 max = 0
-while index < len(nums):
-    product = nums[index] * nums[index + 21] * nums[index + 42] * nums[index + 63]
-    index += 1
-    if product > max:
-        max = product
-    print(max)
+# while index < len(nums):
+#     product = nums[index] * nums[index + 21] * nums[index + 42] * nums[index + 63]
+#     index += 1
+#     if product > max:
+#         max = product
+#     print(max)
 
-
-
-print(nums[0])
-print(nums[21])
