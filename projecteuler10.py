@@ -17,7 +17,7 @@ import sys
 # count = 0
 # total = 2
 
-bound = 2000000
+bound = 200000
 count = 3
 failed = False
 total = 2
@@ -38,4 +38,4 @@ while count < bound:
         total += count
     count += 1
 
-print("\n" + str(total))
+print("\n" + str(total), primes)
